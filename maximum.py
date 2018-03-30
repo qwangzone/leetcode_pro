@@ -11,7 +11,7 @@ class Solution:
             curSum = max(num, curSum + num)
             maxSum = max(maxSum, curSum)
 
-        print(maxSum)
+        return maxSum
 
 a = Solution()
 a.maxSubArray([1, 0, 1,1,1,1])
