@@ -14,4 +14,4 @@ class Solution:
         return maxSum
 
 a = Solution()
-a.maxSubArray([1, 0, 1,1,1,1])
+a.maxSubArray([1, 0, 1, 1, 1, 1])
