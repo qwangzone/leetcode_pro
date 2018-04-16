@@ -14,4 +14,4 @@ def plusOne(digits):
     	num += digits[i] * pow(10, (len(digits)-1-i))
     return [int(i) for i in str(num+1)]
 
-print(plusOne([999989]))
+print(plusOne([999999]))
