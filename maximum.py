@@ -15,4 +15,4 @@ class Solution:
 
 a = Solution()
 print()
-print(a.maxSubArray([]))
+print(a.maxSubArray([1,2,3,4,5,-1,-3]))

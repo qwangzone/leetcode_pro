@@ -4,7 +4,7 @@
 
 元素的顺序可以改变。你不需要考虑数组中超出新长度后面的元素。'''
 #My solusion
-class Solution:
+class Solution1:
     def removeElement(self, nums, val):
         """
         :type nums: List[int]
@@ -16,7 +16,7 @@ class Solution:
         return len(nums)
 
 #更优做法
-class Solution:
+class Solution2:
     def removeElement(self, nums, val):
         """
         :type nums: List[int]
@@ -26,3 +26,16 @@ class Solution:
         while val in nums:
             nums.remove(val)
         return len(nums)
+#最优做法(原地删除最佳做法）
+class Solution3:
+    def removeElement(self, nums, val):
+        nums_index = 0
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[nums_index] = nums[i]
+                nums_index += 1
+        return nums_index
+a = Solution3()
+b=[1,2,3,3,4]
+print(a.removeElement(b,3))
+print(b)

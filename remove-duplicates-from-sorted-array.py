@@ -53,7 +53,7 @@ class Solution2:
 
 
 a = Solution2()
-lis = [0,0,1,1,1,2,2,3,3,4]
+lis = [0,1,1,1,1,2,2,3,3,4]
 print(a.removeDuplicates(lis))
 print(lis)
 
