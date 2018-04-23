@@ -32,7 +32,7 @@ class Solution:
             nums1[:n] = nums2[:n]
 
 a = Solution()
-b = [1,5,8,10]
-c = [3,4,9,11,12]
-a.merge(b,4,c,5)
-print(b)
+nums2 = [5,6,7,8,9]
+nums1 = [1,2,3,4]
+a.merge(nums1,4,nums2,5)
+print(nums1)
