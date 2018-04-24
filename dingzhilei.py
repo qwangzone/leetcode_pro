@@ -1,7 +1,7 @@
 '''
 演示定制类__getattribute__和__getattr__用法
 '''
-class Studen:
+class Student:
     def __init__(self):
         print('调用__init__')
         self.name = 'wq'
@@ -17,7 +17,7 @@ class Studen:
         if item == 'score':
             return 90
 
-a = Studen()
+a = Student()
 print(a.name)
 print(a.sex)
 print(a.score)
