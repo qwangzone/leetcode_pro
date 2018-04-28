@@ -36,6 +36,6 @@ class Solution3:
                 nums_index += 1
         return nums_index
 a = Solution3()
-b=[1,2,3,3,4]
-print(a.removeElement(b,3))
+b=[3,2,2,3]
+print(a.removeElement(b,2))
 print(b)

@@ -35,7 +35,6 @@ class Solution2:
         :rtype: int
         """
         nums_len = 0
-        i = 0
 
         if len(nums) == 0:
             return 0
@@ -48,12 +47,8 @@ class Solution2:
                 nums_len = nums_len + 1
         return nums_len
 
-
-
-
-
 a = Solution2()
-lis = [0,1,1,1,1,2,2,3,3,4]
+lis = [0,1,1,]
 print(a.removeDuplicates(lis))
 print(lis)
 

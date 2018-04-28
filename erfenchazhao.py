@@ -10,5 +10,5 @@ def bin_search(data_list, val):
         else:                       # 如果val在中间数右边, 移动low下标
             low = mid + 1
     return "不存在"                  # val不存在, 返回None
-ret = bin_search([1,3,4,5,6,7], 9)
+ret = bin_search([1, 2], 1)
 print(ret)
